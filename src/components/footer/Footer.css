@@ -1,0 +1,106 @@
+.foot {
+  position: relative;
+}
+
+.foot_container {
+  box-sizing: border-box;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  max-height: 300px;
+  margin: 150px 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+}
+
+.gradientFoot {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  right: 15%;
+  top: 20%;
+  background-image: linear-gradient(to top, #f6c1ce 0%, #c9d5ff 100%);
+
+  filter: blur(62.7082px);
+  transform: rotate(-13.6deg);
+
+  z-index: 3;
+}
+.sectionFoot {
+  text-align: left;
+  min-width: 200px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoFoot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logoFoot img {
+  margin-right: 5px;
+}
+
+.sectionLabel,
+.labTeltext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: -0.01em;
+  color: #403c3c;
+  opacity: 0.6;
+}
+
+.titleFoot {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #403c3c;
+  margin-bottom: 20px;
+}
+.labTel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #403c3c;
+}
+.footEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.arrowTop {
+  text-align: end;
+}
+
+.footBtn {
+  padding: 12px 40px;
+  background: #e9614b;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.footBtn:hover {
+  background: #da3218;
+}

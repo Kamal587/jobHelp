@@ -1,0 +1,104 @@
+.wrap {
+  display: flex;
+  min-height: 60px;
+
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.atrib {
+  margin-right: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #403c3c;
+}
+
+.atrib:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.logo img {
+  margin-right: 5px;
+}
+.textLogo {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.1724px;
+  line-height: 25px;
+  color: #b8b5b5;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+}
+
+.telefon {
+  margin-right: 20px;
+}
+
+.textTel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #403c3c;
+  opacity: 0.6;
+  text-align: left;
+}
+
+.fon {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.person {
+  background: #403c3c;
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.person img {
+  margin-right: 5px;
+}
+
+.person:hover {
+  background: #272626;
+}
+
+@media (max-width: 1140px) {
+  .tel {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 5px;
+  }
+}
